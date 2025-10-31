@@ -27,7 +27,7 @@
             
             <div class="main">
                 
-                <form action="#" method="post">
+                <form action="#" method="post" class="form">
                     
                 <div id="left_inputs">
                     <span>Let's do this!</span><br>
@@ -43,7 +43,7 @@
 
                     
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password">
+                        <input type="password" name="password" required>
                     </p>
                    
                 </div>
@@ -62,7 +62,7 @@
                     <br>
                     
                         <label for="conf_pwd">CONFIRM PASSWORD</label>
-                        <input type="password" name="conf_pwd">
+                        <input type="password" required>
                     </p>
                        
                 </div>
@@ -70,7 +70,7 @@
             </div>
             <div class="bottom">
                 <div id="createBtn">
-                    <button type="submit">Create Account</button>
+                    <button type="submit" id="submit">Create Account</button>
                 </div>
                 <div id="bottomText">
                     <span>Already have an acoount? <a href="#">Log in</a></span>
@@ -83,3 +83,5 @@
     </script>
 </body>
 </html>
+
+
